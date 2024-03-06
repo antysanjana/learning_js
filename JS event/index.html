@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS events</title>
+</head>
+<body>
+    
+    <!-- <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">The date is?</button>
+    
+    <p id="demo"></p> -->
+
+    <!-- <h2>The onclick Attribute</h2>
+
+    <button type="button" onclick="this.innerHTML = Date()">The Time is?</button> -->
+
+    <button type="button" onclick="date()">The time is?</button>
+
+    <script>
+        function date(){
+            document.getElementById("demo").innerHTML = Date();
+        }
+    </script>
+
+    <p id="demo"></p>
+
+</body>
+</html>
