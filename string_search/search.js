@@ -39,9 +39,34 @@ console.log(pos);*/
 let pos = str.startsWith("world");
 console.log(pos);*/
 
-let str = "Hello world!, welcome to the universe";
+/*let str = "Hello world!, welcome to the universe";
 let pos = str.endsWith("world", 11); //second parameter defines the end of search
-console.log(pos);
+console.log(pos);*/
+
+/*let text = "The rain in SPAIN mainly stays in the plain";
+let part = text.match("ain");
+console.log(part[1]);*/
+
+/*let text= "I love cats. Cats are very easy to love. Cats are very popular.";
+let text1 = text.matchAll("Cats");
+console.log(Array.from(text1));*/
+
+/*let text = "Hello world! Welcome to the universe";
+let text1 = text.startsWith("world");
+console.log(text1);*/
+
+/*let text = "Hello world! Welcome to the universe";
+let text1 = text.startsWith("world", 5);
+console.log(text1);*/
+
+/*let text = "Hello world! Welcome to the universe";
+let text1 = text.endsWith("universe");
+console.log(text1);*/
+
+let text = "Hello world! Welcome to the universe";
+let text1 = text.startsWith("universe", 11);
+console.log(text1);
+
 
 
 
